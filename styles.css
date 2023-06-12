@@ -1,0 +1,160 @@
+/* header */
+
+header{
+    background-color: rgb(37, 60, 116);
+    background-image: url("1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 852px;
+    padding-top: 36px;
+}
+
+
+.top-line{
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.top-left-block{
+    float: left;
+    min-height: 63px;
+    min-width: 187px;
+    background-image: url("Logo.png");
+}
+
+.top-right-block{
+    float: right;
+}
+
+.central-text{
+    margin-top: 155px;
+    margin-left: 302.5px;
+    margin-right: 302.5px;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    min-height: 74px;
+}
+
+.top-buttons{
+    margin-top: 45px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.top-button-l{
+   
+    min-width: 645px;
+    float: left;
+    color: white;
+    
+
+}
+
+.top-button-r{
+   
+    min-width: 645px;
+    float:right;
+    color: white;
+
+}
+
+.top-button-r:hover {
+    background-color: yellow;
+}
+
+.top-button-l:hover {
+    background-color: yellow;
+}
+
+
+/* body */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.block{
+    padding-top: 103px;
+    padding-left: 208px;
+    padding-right: 208px;
+    padding-bottom: 142px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.block-text{
+    margin: 0 auto;
+    width: 50%;
+    font-size:32px;
+    text-align: center;
+}
+
+.block-image-line{
+    margin-top: 68px;
+    margin: 0 auto;
+    min-height: 431px;
+   
+}
+
+.block-image{
+    width: 380px;
+    padding-top: 20px;
+}
+
+.block-description{
+    text-align: center;
+    font-size: 12px;
+}
+
+.block-item{
+    float: left;
+    min-height: 431px;
+    padding-left: 20px;
+}
+.block-item-first{
+    float: left;
+    min-height: 431px;
+}
+.block2{
+    margin-top: 142px;
+    min-height: 660px;
+    padding-right: 227px;
+    overflow: hidden;
+}
+.block2-image{
+    float: left;
+}
+.block2-text{
+    float: right;
+    text-align: justify;
+    padding-left: 133px;
+    padding-top: 58.5px;;
+}
+
+.block2-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.block3{
+    margin-top: 142px;
+    min-height: 660px;
+    padding-left: 227px;
+    overflow: hidden;
+}
+.block3-image{
+    float: right;
+}
+.block3-text{
+    float: left;
+    text-align: justify;
+    padding-left: 133px;
+    padding-top: 58.5px;;
+}
+
+.block3-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+/* footer */
